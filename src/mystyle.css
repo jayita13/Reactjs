@@ -1,0 +1,62 @@
+.box{
+    margin: auto;
+    height: 650px;
+    width: 500px;
+    background-color:lightgray;
+    font-family: 'Trebuchet MS';
+    padding: 10px;
+}
+
+.box h1{
+    text-align: left;
+    margin: 10px;
+}
+
+.box label{
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
+}
+
+.box input{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 10px 0px 0px;
+}
+
+.email-city{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 10px 0px 0px; 
+} 
+select{
+    height: 30px; 
+    width: 100px;
+}
+
+.dob-phn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 10px 0px 0px; 
+}
+
+.gen-hob{
+    margin: 0px 10px 0px 10px; 
+}
+
+
+.box button{
+    margin-left: 150px;
+    background-color:cornflowerblue;
+    font-family: 'Trebuchet MS';
+    display: inline-block;
+    padding: 10px 20px;
+}
