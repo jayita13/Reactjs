@@ -1,0 +1,50 @@
+
+.dash{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+    /* gap: 10px; */
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: 240px;
+    grid-auto-flow: dense;
+    /* background-image: url("https://media1.giphy.com/media/TexuKBfvpWjaIuACrz/giphy.gif?cid=ecf05e47ms38gcgfztr51t7rvi4dchh7ogqqmieg72z7tdbu&rid=giphy.gif&ct=g"); */
+    /* background-image: url("https://media2.giphy.com/media/d2Z7wetTpiqlmjq8/giphy.gif?cid=ecf05e47866wn4covo9dod5jt11sok6bdna9lgwmg8ojm2h2&rid=giphy.gif&ct=g"); */
+    /* background-image: url("https://media1.giphy.com/media/NKEt9elQ5cR68/giphy.gif?cid=ecf05e474nwzr58ahh0rw24a7jeonhqklp52vd0c3xi1ryb5&rid=giphy.gif&ct=g");  */
+    /* background-image: url("https://media4.giphy.com/media/KEATEV6uaagupaQEXW/giphy.gif?cid=ecf05e477g7ukwqozk0xoda4fazgth7ew8kcchexgjx77c3g&rid=giphy.gif&ct=g"); */
+    background-image: url("https://media4.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif?cid=ecf05e471x5rqm4bw0sybi0ag5z99q4cm3c6f762y0ojxf3y&rid=giphy.gif&ct=g");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+  }
+  
+  .dash > .dash-span{
+    /* grid-auto-rows: auto; */
+    /* background-color: lightskyblue; */
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 5px 5px 5px;
+    font-family: 'Trebuchet MS';
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color:rgba(255, 248, 248, 0.986);
+  }
+  
+/* p {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightsalmon;
+}
+
+p > span {
+  background-color: lightskyblue;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS';
+} */  

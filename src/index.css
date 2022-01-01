@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://th.bing.com/th/id/R41d25d01e880a65ef8cd2657d2f3ec25?rik=298VAxXDc5gQCw&riu=http%3a%2f%2fmedia.bizj.us%2fview%2fimg%2f4453181%2fbloomberg-ibm-sign*1200xx4000-2250-0-209.jpg&ehk=zoi24%2beFXAWdB7ym%2fh6Oxs1ue2Ag6ts2FtFEXVrgPGU%3d&risl=&pid=ImgRaw');
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
